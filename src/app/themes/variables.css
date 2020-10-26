@@ -1,12 +1,12 @@
-:root {
-  /* Colors: */
-  --unnamed-color-333333: #333333;
+// :root {
+/* Colors: */
+/*--unnamed-color-333333: #333333;
   --unnamed-color-fd830d: #fd830d;
   --unnamed-color-004680: #004680;
-  --ffb448: #ffb448;
+  --ffb448: #ffb448; */
 
-  /* Font/text values */
-  --unnamed-font-family-montserrat: Montserrat;
+/* Font/text values */
+/*--unnamed-font-family-montserrat: Montserrat;
   --unnamed-font-style-normal: normal;
   --unnamed-font-weight-bold: bold;
   --unnamed-font-size-14: 14px;
@@ -17,10 +17,10 @@
   --unnamed-line-spacing-24: 24px;
   --unnamed-line-spacing-32: 32px;
   --unnamed-text-transform-uppercase: uppercase;
-}
+} */
 
 /* Character Styles */
-.unnamed-character-style-1 {
+/*.unnamed-character-style-1 {
   font-family: var(--unnamed-font-family-montserrat);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -56,4 +56,4 @@
   line-height: var(--unnamed-line-spacing-32);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-004680);
-}
+} */
