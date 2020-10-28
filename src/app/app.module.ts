@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { NavigationComponent } from "./components/navigation/navigation.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { KnowComponent } from "./components/know/know.component";
+import { DiscipleComponent } from "./components/disciple/disciple.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -13,7 +14,8 @@ import { KnowComponent } from "./components/know/know.component";
     AppComponent,
     NavigationComponent,
     HeaderComponent,
-    KnowComponent
+    KnowComponent,
+    DiscipleComponent
   ],
   bootstrap: [AppComponent]
 })
