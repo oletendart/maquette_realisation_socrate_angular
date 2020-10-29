@@ -9,6 +9,9 @@ import { KnowComponent } from "./components/know/know.component";
 import { DiscipleComponent } from "./components/disciple/disciple.component";
 import { MentorComponent } from "./components/mentor/mentor.component";
 import { BenefitsComponent } from "./components/benefits/benefits.component";
+import { ServicesComponent } from "./components/services/services.component";
+import { DownloadComponent } from "./components/download/download.component";
+import { FooterComponent } from "./components/footer/footer.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -19,7 +22,10 @@ import { BenefitsComponent } from "./components/benefits/benefits.component";
     KnowComponent,
     DiscipleComponent,
     MentorComponent,
-    BenefitsComponent
+    BenefitsComponent,
+    ServicesComponent,
+    DownloadComponent,
+    FooterComponent
   ],
   bootstrap: [AppComponent]
 })
