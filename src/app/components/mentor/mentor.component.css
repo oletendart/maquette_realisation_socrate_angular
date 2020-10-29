@@ -1,19 +1,22 @@
 .container {
+  background-image: url(https://zupimages.net/up/20/44/0rub.png);
   top: 2216px;
   left: 0px;
   width: 1440px;
   height: 768px;
-  background: transparent url("https://zupimages.net/up/20/44/0rub.png") 0% 0%
-    no-repeat padding-box;
   opacity: 1;
+  position: absolute;
 }
 .contain {
-  top: 2426px;
+  top: 210px;
   left: 156px;
+  right: 768px;
+  bottom: 262px;
   width: 516px;
   height: 296px;
   opacity: 1;
-  margin: 210px 768px 262px 156px;
+  /* margin: 210px 768px 262px 156px; */
+  position: relative;
 }
 h3 {
   top: 2426px;
