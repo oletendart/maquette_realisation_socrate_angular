@@ -5,7 +5,6 @@
   left: 0px;
   width: 1440px;
   height: 768px;
-  /*--z-index: 1; */
 }
 img {
   top: 645px;
@@ -16,19 +15,18 @@ img {
   opacity: 1;
 }
 .content {
-  /* z-index: 5; */
+  position: absolute;
 }
 .contain {
-  top: 821px;
+  top: 176px;
   left: 156px;
   width: 596px;
   height: 416px;
-  margin: 176px 688px 176px 156px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 4px 6px #00468033;
   border-radius: 10px;
   opacity: 1;
-  /* z-index: 6; */
+  position: relative;
 }
 .text {
   top: 861px;
