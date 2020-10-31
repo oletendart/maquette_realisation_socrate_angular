@@ -20,6 +20,11 @@
   --unnamed-text-transform-uppercase: uppercase;
 }
 
+html,
+body {
+  margin: 0;
+}
+
 /* Character Styles */
 .unnamed-character-style-1 {
   font-family: var(--unnamed-font-family-montserrat);
