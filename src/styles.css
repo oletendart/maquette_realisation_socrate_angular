@@ -63,3 +63,6 @@ body {
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-004680);
 }
+.max-container {
+  max-width: 1128px;
+}
