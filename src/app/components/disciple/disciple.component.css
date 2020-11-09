@@ -5,3 +5,20 @@
   height: 768px;
   opacity: 1;
 }
+.content {
+  top: 1644px;
+  left: 732px;
+  width: 489px;
+  height: 377px;
+  position: absolute;
+}
+.title {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    52px/76px var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-333333);
+  text-align: left;
+  font: normal normal bold 52px/76px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+}
