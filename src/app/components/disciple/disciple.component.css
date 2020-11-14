@@ -1,16 +1,11 @@
 .contains {
-  top: 1448px;
-  left: 0px;
   width: 1440px;
   height: 768px;
-  opacity: 1;
 }
 .content {
-  top: 1644px;
-  left: 732px;
   width: 489px;
   height: 377px;
-  position: absolute;
+  margin-top: 15%;
 }
 .title {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)

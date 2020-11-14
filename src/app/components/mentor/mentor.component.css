@@ -1,22 +1,17 @@
 .container {
   background-image: url(https://zupimages.net/up/20/44/0rub.png);
-  top: 2216px;
-  left: 0px;
-  width: 1440px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
   height: 768px;
-  opacity: 1;
-  position: absolute;
+  position: relative;
 }
 .contain {
-  top: 210px;
-  left: 156px;
-  right: 768px;
-  bottom: 262px;
+  top: 27%;
+  left: 11%;
   width: 516px;
   height: 296px;
-  opacity: 1;
-  /* margin: 210px 768px 262px 156px; */
-  position: relative;
+  position: absolute;
 }
 h3 {
   top: 2426px;
