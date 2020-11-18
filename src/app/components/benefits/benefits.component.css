@@ -1,18 +1,23 @@
 .container {
-  height: 768px;
-}
-.content {
-  width: 49%;
-  height: 768px;
-}
-.content img {
+  background: #f9f9f9 0% 0% no-repeat padding-box;
   width: 100%;
-  height: 100%;
+  height: 768px;
+  position: relative;
 }
-.contains {
-  margin-top: 10%;
-  width: 564px;
-  height: 268px;
+.image-background {
+  width: 40%;
+  background-image: url("https://zupimages.net/up/20/44/qt60.png");
+  height: 100%;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center
+}
+.floating-container {
+  width: 596px;
+  height: 416px;
+  position: absolute;
+  top: 22.5%;
+  left: 51%;
 }
 h4 {
   width: 563px;
