@@ -4,6 +4,7 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 3px 3px 6px #026eb533;
   width: 100%;
+  z-index: 1;
 }
 header {
   height: 100%;
