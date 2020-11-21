@@ -19,6 +19,15 @@
   --unnamed-line-spacing-32: 32px;
   --unnamed-text-transform-uppercase: uppercase;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 html,
 body {
