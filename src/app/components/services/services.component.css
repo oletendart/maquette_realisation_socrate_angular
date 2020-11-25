@@ -9,7 +9,7 @@
   color: #333333;
   text-decoration: underline;
   text-decoration-color: var(--unnamed-color-004680);
-  margin: 30px;
+  margin: 20px;
 }
 .contains {
   display: flex;
@@ -18,53 +18,15 @@
   justify-content: space-between;
   margin: auto;
 }
+.icon {
+}
 .mentor,
 .payement,
 .event {
   max-width: 268px;
 }
-.mentor h6 {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
-    var(--unnamed-font-family-montserrat);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-004680);
-  text-align: left;
-  font: normal normal bold 24px/32px Montserrat;
-  letter-spacing: 0px;
-  color: #004680;
-}
-.mentor p {
-  font: var(--unnamed-font-style-normal) normal normal 18px/28px
-    var(--unnamed-font-family-montserrat);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-333333);
-  text-align: left;
-  font: normal normal normal 18px/28px Montserrat;
-  letter-spacing: 0px;
-  color: #333333;
-}
-.event h6 {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
-    var(--unnamed-font-family-montserrat);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-004680);
-  text-align: left;
-  font: normal normal bold 24px/32px Montserrat;
-  letter-spacing: 0px;
-  color: #004680;
-}
-.event p {
-  font: var(--unnamed-font-style-normal) normal normal 18px/28px
-    var(--unnamed-font-family-montserrat);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-333333);
-  text-align: left;
-  font: normal normal normal 18px/28px Montserrat;
-  letter-spacing: 0px;
-  color: #333333;
-}
+.mentor h6,
+.event h6,
 .payement h6 {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
     var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
@@ -76,6 +38,8 @@
   letter-spacing: 0px;
   color: #004680;
 }
+.mentor p,
+.event p,
 .payement p {
   font: var(--unnamed-font-style-normal) normal normal 18px/28px
     var(--unnamed-font-family-montserrat);
