@@ -1,3 +1,8 @@
+.text {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
 .primary-btn {
   background: red;
   color: white;
