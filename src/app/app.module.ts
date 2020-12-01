@@ -12,6 +12,7 @@ import { BenefitsComponent } from "./components/benefits/benefits.component";
 import { ServicesComponent } from "./components/services/services.component";
 import { DownloadComponent } from "./components/download/download.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { ButtonComponent } from "./components/button/button.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -25,7 +26,8 @@ import { FooterComponent } from "./components/footer/footer.component";
     BenefitsComponent,
     ServicesComponent,
     DownloadComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent
   ],
   bootstrap: [AppComponent]
 })
