@@ -13,8 +13,6 @@ import { ServicesComponent } from "./components/services/services.component";
 import { DownloadComponent } from "./components/download/download.component";
 import { FooterComponent } from "./components/footer/footer.component";
 
-import { ButtonComponent } from "./models/button/button.component";
-
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [
@@ -27,8 +25,7 @@ import { ButtonComponent } from "./models/button/button.component";
     BenefitsComponent,
     ServicesComponent,
     DownloadComponent,
-    FooterComponent,
-    ButtonComponent
+    FooterComponent
   ],
   bootstrap: [AppComponent]
 })
